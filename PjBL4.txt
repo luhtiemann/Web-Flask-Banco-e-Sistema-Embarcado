@@ -1,0 +1,41 @@
+PjBl - Fase 4 - Entrega final 
+
+  
+
+Objetivo: Deve ser realizada uma entrega e apresentação do trabalho final, contendo toda a estrutura de Hardware e Software, ou seja: Banco de dados conectado com o Flask e armazenando os dados de sensores e atuadores, Hardware funcional com pelo menos 1 sensor e 1 atuador (no mínimo) e interface Web Flask.  
+
+Observações: Pode ser utilizado o simulador Wokwi para o desenvolvimento e validação da parte de hardware do projeto final.   
+
+Requisitos mínimos para a Fase 4 do PjBL:  
+
+Todo o projeto pronto, equivalente ao PjBL 1, 2, 3 e 4 (integração); 
+Deve ser entregue um relatório final, o relatório deve conter a descrição completa do projeto, bem como das ferramentas utilizadas. O que deve conter no relatório e ser entregue:  
+
+Web (2 pontos referente ao relatório): 
+Aplicação Flask: controladores (Blueprints) e visualizações (páginas HTML). 
+No mínimo 4 páginas de cadastro e 4 páginas de listagem. 
+Página inicial contendo as informações do projeto. 
+Página para acionamento e recuperação de dados dos Atuadores e Sensores. 
+Controle de Acesso com o Flask-Login. 
+Banco de Dados (2 pontos referente ao relatório): 
+Modelos SQLAlchemy (mínimo 6 modelos). 
+Métodos para inserir, selecionar, editar e excluir os dados do banco de dados. 
+Modelagem Conceitual, Lógica e Física do banco de dados. 
+Hardware (2 pontos referente ao relatório): 
+Esquemática do Hardware utilizado – sensores, atuadores e microcontrolador; 
+No mínimo 1 sensor e um atuador;  
+Tópicos MQTT utilizados (nomes e explicações de funcionalidades); 
+Todas as entregas exigidas no PjBL 3, agora integrado ao flask. O PjBL3 pode ser uma seção do relatório final.  
+Integração (2 pontos referente ao relatório): 
+Integração dos três tópicos principais da disciplina apresentados anteriormente: Web, Banco de Dados, Hardware. 
+Comunicação IoT com o Flask-Mqtt: os dados dos sensores e atuadores devem ser processados pela aplicação flask e salvos no banco de dados, bem como a aplicação flask deve publicar mensagens (solicitações), por meio de tópicos específicos, solicitando ações do hardware. 
+TDEs desenvolvidos ao longo do semestre (2 pontos referente ao relatório): 
+Deve conter um capítulo/sessão para cada TDE, conforme apresentado no início da disciplina. 
+TDE 1 – Metodologia ágil utilizada. 
+TDE 2 – Framework para design de aplicações web. 
+TDE 3 – NoSQL para IoT. 
+TDE 4 – Entendendo o projeto final e seus requisitos de Hardware. 
+TDE 5 – Realizando a integração do Hardware, MQTT e Flask. 
+Avaliação  
+
+Além do relatório, a equipe realizara uma apresentação em sala de aula, onde deve contemplar todas as partes do relatório e uma apresentação do projeto funcionando. Adicione uma seção de desafios e discussões na apresentação. A apresentação deve ter um tempo máximo de 10 minutos. Os dois professores irão avaliar de forma individual a apresentação, e depois realizar uma média entre seus pareceres.  A nota final será composta pela média entre o relatório final e a apresentação.
